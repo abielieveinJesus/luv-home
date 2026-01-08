@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body{
+  overflow-x: hidden;
+  padding:0%;
+  margin: 0%;
+  background-color: #ebebeb;
+  background-image: linear-gradient(#80808028 0.5px, transparent 1px), linear-gradient(90deg,#80808028 0.5px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+
+.fugaz {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-outline-regular {
+  font-family: "Bungee Outline", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.google-sans {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+
