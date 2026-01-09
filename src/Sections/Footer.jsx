@@ -89,12 +89,12 @@ export const Footer = () => {
 
         <h1 className='footer-headline flex items-center justify-center text-[#ebebeb]/90  sm:text-[30px] text-[30px]  tracking-[1px] mb-5 '>Keep in touch <span className='ml-3 mt-0.5'>❤︎</span></h1>
 
-        <div className='flex flex-col items-center justify-center'>
+        <div className='z-2 flex flex-col items-center justify-center'>
            <div className='grid grid-cols-1 grid-rows-5 gap-3 items-center justify-center text-center'>
            <div className='stagger-options flex items-center justify-center w-80 h-12 bg-white/90 rounded-full text-center text-md  text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Forums</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Blue Sky</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Donate</div>
-            <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-[#ebebeb] hover:opacity-70 border border-[#ebebeb] transition-all duration-200 cursor-pointer'>Contact Us</div>
+           <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-white/90 border border-white/90 hover:border-white/70 hover:text-white/70 transition-all duration-200 cursor-pointer'>Contact Us</div>
         </div>
 
         <div className='policies-terms flex flex-row gap-5 items-center justify-center'>
