@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Mail } from 'lucide-react'
 import React from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from "gsap";
@@ -94,7 +94,7 @@ export const Footer = () => {
            <div className='stagger-options flex items-center justify-center w-80 h-12 bg-white/90 rounded-full text-center text-md  text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Forums</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Blue Sky</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Donate</div>
-           <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-white/90 border border-white/90 hover:border-white/70 hover:text-white/70 transition-all duration-200 cursor-pointer'>Contact Us</div>
+           <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-white/90 border border-white/90 hover:border-white/70 hover:text-white/70 transition-all duration-200 cursor-pointer'><Mail className='mr-2'></Mail>Contact Us</div>
         </div>
 
         <div className='policies-terms flex flex-row gap-5 items-center justify-center'>
