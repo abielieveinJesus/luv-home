@@ -33,7 +33,6 @@ export const About = () => {
                 duration:1,
                 stagger:.3, 
                 delay:1,
-                scrub:true,
                 scrollTrigger:{
                   trigger:"#bento"
                  },}
@@ -60,7 +59,7 @@ export const About = () => {
 
 
   
-  return <section id='about' className="w-screen sm:mt-5 mt-35  flex items-center justify-center ">
+  return <section id='about' className="w-screen sm:-mt-5 mt-35  flex items-center justify-center ">
       
        <div className=' flex flex-col  items-center justify-center'>
 
@@ -72,7 +71,7 @@ export const About = () => {
             <div id='bento'  className=' grid grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-4 md:grid-rows-3 lg:grid-cols-4 lg:grid-rows-3 gap-2 '>
 
                 <div className='stagger-card col-span-1 row-span-1 sm:col-span-1 sm:row-span-2 md:col-span-2 md:row-span-2  h-90 w-90 sm:h-110 sm:w-75 md:h-140 md:w-95 lg:h-150 lg:w-100 flex flex-col items-center justify-center rounded-2xl border bg-[#050205] text-[#ebebeb] overflow-clip'>
-                    <ChartNoAxesColumnIncreasing className='z-1 h-60 w-60 md:mt-0 -mt-10 sm:h-full sm:w-full text-red-800'></ChartNoAxesColumnIncreasing>
+                    <ChartNoAxesColumnIncreasing className='z-1 h-60 w-60 md:mt-0 -mt-10 sm:h-full sm:w-full text-red-800 hover:scale-105 transition-all duration-400'></ChartNoAxesColumnIncreasing>
                     <div className='z-1 absolute bottom-7 md:bottom-10 left-5'>
                         <h1 className='text-xl sm:text-lg md:text-3xl'>Maximum AI disturbance.</h1>
                         <h2 className='text-md sm:text-sm md:text-lg opacity-50'>Minimal changes to your art.</h2>
@@ -88,7 +87,7 @@ export const About = () => {
                 <div className='stagger-card col-span-1 row-span-1 sm:col-span-2 sm:row-span-1 md:col-span-2 md:row-span-1  h-full w-full flex flex-col items-center justify-center rounded-2xl border border-[#635f63] bg-[#050205] text-[#ebebeb] overflow-clip '>
                      
                     {/*Whole Cake*/}
-                    <div className='absolute flex flex-col items-center justify-center sm:top-10 md:top-17 scale-130 sm:scale-80 md:scale-100 '>
+                    <div className='absolute flex flex-col items-center justify-center sm:top-10 md:top-14 scale-130 sm:scale-80 md:scale-100 hover:scale-135 sm:hover:scale-85 md:hover:scale-105 transition-all duration-400  '>
                         {/*Candle*/}
                         <div className='z-1 w-3 h-8 top-0 -mt-1 mr-5 absolute flex items-center justify-center bg-[#ebebeb]'></div>
 
@@ -112,7 +111,7 @@ export const About = () => {
 
                 <div className='stagger-card col-span-1 row-span-1 sm:col-span-2 sm:row-span-1 md:col-span-2 md:row-span-1 h-full w-full flex flex-col items-center justify-center rounded-2xl border border-[#635f63] bg-[#050205] text-[#ebebeb] overflow-clip'>
                     
-                    <Rocket className='z-1 h-30 w-30 absolute sm:top-3 sm:scale-80 md:scale-100 md:top-15 scale-125 '></Rocket>
+                    <Rocket className='z-1 h-30 w-30 absolute sm:top-3 sm:scale-80 md:scale-100 md:top-14 scale-125 sm:hover:scale-90 md:hover:scale-100 hover:scale-130 hover:-mt-3 hover:-mr-8 transition-all duration-200  '></Rocket>
                     <div className='z-1 absolute bottom-7 md:bottom-10 left-5'>
                         <h1 className='text-xl sm:text-lg md:text-3xl'>Fast Processing.</h1>
                         <h2 className='text-md sm:text-sm md:text-lg opacity-50'>Don't gotta wait too long for LUV.</h2>
@@ -130,7 +129,7 @@ export const About = () => {
                 <div className='stagger-card col-span-1 row-span-1 sm:col-span-4 sm:row-span-1 md:col-span-4 md:row-span-1 h-full w-full flex items-center justify-center rounded-2xl  border border-[#635f63] bg-[#050205] text-[#ebebeb]'>
                     <div className='flex flex-row items-center justify-center'>
                         <span className='text-red-800 text-[100px]'>❤︎</span>
-                        <Wallet className='h-30 w-30 animate-bounce'></Wallet>
+                        <Wallet className='h-30 w-30 animate-bounce hover:scale-105 transition-all duration-400 '></Wallet>
                         <span className='text-red-800 text-[100px]'>❤︎</span>
                         
                     </div>
@@ -151,19 +150,19 @@ export const About = () => {
 
        
         
-            <div className='b4footer flex flex-col   items-center justify-center sm:mb-0 mb-30 sm:my-20 md:my-25 lg:my-30'>
+            <div className='b4footer flex flex-col   items-center justify-center mb-30 sm:mb-20 md:mb-25 lg:mb-30 lg:mt-25'>
                       <h1 className=' text-[#050205] text-md sm:text-lg md:text-xl tracking-[1px] '> Dear artist, don't lose heart.</h1>
                       <div className='flex flex-row mb-10'>
                         <span className='text-red-800 md:text-4xl'>❤︎❤︎</span>
                         <span className='text-red-800 md:text-4xl animate-[pulse_1s_ease-in-out_infinite]'>❤︎</span>
                       </div>
                 <div>
-                    <button className='bg-[#050205] px-10 py-1 rounded-full cursor-pointer flex flex-row items-center justify-center hover:scale-103 transition-all duration-200 sm:scale-100 scale-85'>
+                    <button className='bg-[#050205] px-9 py-0 rounded-full cursor-pointer flex flex-row items-center justify-center hover:scale-103 transition-all duration-200 sm:scale-100 scale-85'>
                         
-                        <h1 className='sm:text-[50px] text-[50px] text-[#ebebeb] opacity-90 mr-5'>Choose</h1>
-                        <h1 className='fugaz text-red-800  sm:text-[50px] text-[50px]  tracking-[1px] '>LUV</h1>
-                        <div className='flex items-center justify-center w-14 h-14 bg-[#ebebeb] rounded-full ml-3 -mr-7'>
-                               <ArrowRight className='stroke-2.5 text-2xl  text-[#050205]'></ArrowRight>
+                        <h1 className='fugaz sm:text-[45px] text-[50px] text-[#ebebeb] opacity-90 mr-3'>choose</h1>
+                        <h1 className='fugaz text-red-800  sm:text-[51px] text-[50px]  tracking-[1px] '>LUV</h1>
+                        <div className='flex items-center justify-center w-16 h-16 bg-[#ebebeb] rounded-full ml-3 -mr-7'>
+                               <ArrowRight className='stroke-2.5 text-2xl h-10 w-10  text-[#050205]'></ArrowRight>
                          </div>
                     </button>
                 </div>

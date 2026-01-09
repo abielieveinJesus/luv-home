@@ -24,15 +24,7 @@ export const Nav = () => {
                         ease: 'power1.inOut', 
                 })
 
-            gsap.fromTo('.luvlogo', {
-                        opacity:0
-                }, 
-                {
-                        opacity:1,
-                        duration:1,
-                        delay:1,
-                        ease: 'power1.inOut', 
-                })
+           
 
 
       
@@ -74,9 +66,8 @@ export const Nav = () => {
       {/*nav*/}  
        <div className='hidden md:flex z-10 absolute gap-5 top-4 rounded-full backdrop-blur-xl bg-[#c5c4c1]/45 p-2 px-4 '>
         <a className='text-md   text-[#050205] transition-all duration-200 cursor-pointer bg-white/90 rounded-full px-4 py-1.5'>Home</a>
-         <a className='text-md   text-[#050205] transition-all duration-200 cursor-pointer hover:bg-white/50 rounded-full px-4 py-1.5'>Why Luv?</a>
-          
-              <a className='text-md  text-[#050205] transition-all duration-200 cursor-pointer hover:bg-white/50 rounded-full px-4 py-1.5'>Support us</a>
+         <a className='text-md   text-[#050205] transition-all duration-200 cursor-pointer hover:bg-white/50 rounded-full px-4 py-1.5'>Installation</a>
+         <a className='text-md  text-[#050205] transition-all duration-200 cursor-pointer hover:bg-white/50 rounded-full px-4 py-1.5'>Support us</a>
           
        </div>
 
@@ -106,11 +97,11 @@ export const Nav = () => {
                     </div>
                    
                     <div className='flex flex-col items-center justify-center gap-5 w-screen text-[#050205] '>
-                      <a className='text-xl cursor-pointer bg-white/90 rounded-full flex items-center justify-center w-1/2 p-2 px-4 py-1.5 hover:scale-103 transition-all duration-200'>Home</a>
-                      <a className='text-xl cursor-pointer bg-white/90 rounded-full flex items-center justify-center w-1/2  p-2 px-4 py-1.5 hover:scale-103 transition-all duration-200'>Why Luv?</a>
-                      <a className='text-xl cursor-pointer bg-white/90 rounded-full flex items-center justify-center w-1/2  p-2 px-4 py-1.5 hover:scale-103 transition-all duration-200'>Support Us</a>
+                      <a className='text-xl cursor-pointer bg-white/90 rounded-full flex items-center justify-center w-3/5  h-12 hover:scale-103 transition-all duration-200'>Home</a>
+                      <a className='text-xl cursor-pointer bg-white/90 rounded-full flex items-center justify-center w-3/5  h-12 hover:scale-103 transition-all duration-200'>Installation</a>
+                      <a className='text-xl cursor-pointer bg-white/90 rounded-full flex items-center justify-center w-3/5  h-12 hover:scale-103 transition-all duration-200'>Support Us</a>
                       
-                       <a className='text-xl cursor-pointer bg-[#050205] text-white rounded-full flex items-center w-1/2 justify-center p-2 px-4 py-1.5 mt-10 hover:scale-103 transition-all duration-200'>Contact Us</a>
+                       <a className='text-xl cursor-pointer bg-[#050205] text-white rounded-full flex items-center justify-center w-3/5 h-12 mt-10 hover:scale-103 transition-all duration-200'>Contact Us</a>
                     </div>
                      
 

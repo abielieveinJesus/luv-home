@@ -91,10 +91,10 @@ export const Footer = () => {
 
         <div className='flex flex-col items-center justify-center'>
            <div className='grid grid-cols-1 grid-rows-5 gap-3 items-center justify-center text-center'>
-           <div className='stagger-options flex items-center justify-center w-80 h-12 bg-white/90 rounded-full text-center text-md  text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Community</div>
-           <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Discord</div>
-           <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Contact Us</div>
+           <div className='stagger-options flex items-center justify-center w-80 h-12 bg-white/90 rounded-full text-center text-md  text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Forums</div>
+           <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Blue Sky</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Donate</div>
+            <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-[#ebebeb] bg-white/0 border border-[#ebebeb] hover:opacity-70 transition-all duration-200 cursor-pointer'>Contact Us</div>
         </div>
 
         <div className='policies-terms flex flex-row gap-5 items-center justify-center'>
@@ -102,7 +102,7 @@ export const Footer = () => {
               <a className='  text-[#ebebeb] hover:opacity-70 transition-all duration-200 cursor-pointer border border-[#ebebeb] rounded-full px-5 py-1'>Terms of Use</a>
         </div>
         
-        <a className='footer-end mt-10 text-sm text-[#ebebeb]/80 text-center'>©2026 LUV - An Abiereverie product. All rights reserved.</a>
+        <span className='footer-end mt-10 text-sm text-[#ebebeb]/80 text-center'>©2026 LUV - An Abiereverie product. All rights reserved.</span>
 
         </div>
 
