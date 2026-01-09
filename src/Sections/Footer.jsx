@@ -94,7 +94,7 @@ export const Footer = () => {
            <div className='stagger-options flex items-center justify-center w-80 h-12 bg-white/90 rounded-full text-center text-md  text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Forums</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Blue Sky</div>
            <div className='stagger-options flex items-center justify-center  w-80 h-12 bg-white/90 text-center text-md  rounded-full text-[#050205] hover:bg-white/70 transition-all duration-200 cursor-pointer'>Donate</div>
-            <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-[#ebebeb] bg-white/0 border border-[#ebebeb] hover:opacity-70 transition-all duration-200 cursor-pointer'>Contact Us</div>
+            <div className='stagger-options flex items-center justify-center  w-80 h-12  text-center text-md  rounded-full text-[#ebebeb] hover:opacity-70 border border-[#ebebeb] transition-all duration-200 cursor-pointer'>Contact Us</div>
         </div>
 
         <div className='policies-terms flex flex-row gap-5 items-center justify-center'>
